@@ -37,8 +37,9 @@ body{
 }
 
 .subtext {
-    font-size: 12px;
+    font-size: 16px;
     color: #E5E7EB;
+    padding-bottom: 16px;
 }
 
 .offices{
@@ -57,22 +58,69 @@ body{
 
 }
 
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    
+}
+
+.text .subtext{
+    color: #1F2937;
+    width: 270px;
+    font-size: 12px;
+}
+
+.input{
+    display: flex;
+    min-width:fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height:fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background-color:  #E5E7EB;
+    padding: 6px 12px 6px 12px;
+}
+
+
+input[type=text]{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 14px;
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5E7EB;
+    outline: none;
+}
+
+
 
 button {
     background-color: #3882F6;
     border-radius: 10px;
-    border: solid white;
-    font-style: bold;
+    font-weight: bold;
     color: white;
-    width: 100px;
-    padding: 10px;
-    margin: 16px 0px 80px 0px;
+    padding: 8px;
+    border: none;
     
 }
 
+
 .footer {
+    background-color:  #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 16px;
+    color:#E5E7EB;
+    
 }
 
 ul {
