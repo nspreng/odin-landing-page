@@ -1,24 +1,61 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hero text', sans-serif;
 }
 .header{
-    background-color: #1F2937;
-    color: white;
-    height: 72px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 60px;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    min-width: 140px;
+}
+
+.logo img{
+    width: auto;
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo-text{
+    font-size: 16px;
+    font-weight: 900;
+    color: #1F2937
+}
+
 
 .main{
-    background-color: #1F2937;
+    background-image: url(../odin-landing-page/img/stocks.jpg);
     color: white;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-between;
+}
+
+.main img{
+    display: flex;
+    height: auto;
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+    margin: 30px;
+    border: solid #E5E7EB;
+    border-width: 10px;
+}
+
+.left-to-image{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    min-width: 400px;
 }
 
 .images{
@@ -40,6 +77,7 @@ body{
     font-size: 16px;
     color: #E5E7EB;
     padding-bottom: 16px;
+    text-align: justify;
 }
 
 .offices{
@@ -47,22 +85,38 @@ body{
     display: flex;
     flex-direction:column;
     align-items: center;
-    height: 200px;
-    gap: 60px;
-    
+    gap: 8px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 .all-offices{
     display: flex;
-    gap: 64px;
+    gap: 32px;
+    margin: 16px;
+}
 
+
+.office-container{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.office-container img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
 }
 
 .subscription{
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
     align-items: center;
     
 }
@@ -133,5 +187,5 @@ ul {
 
 a{
     text-decoration: none;
-    color: white;
+    color: #1F2937;
 }
