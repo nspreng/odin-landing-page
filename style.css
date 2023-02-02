@@ -3,6 +3,7 @@ body{
 }
 .header{
     background-color: #E5E7EB;
+    
     color: #1F2937;
     height: 60px;
     display: flex;
@@ -10,6 +11,12 @@ body{
     padding-right: 300px;
     justify-content: space-between;
     align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
 }
 
 .logo{
@@ -33,23 +40,35 @@ body{
 
 .main{
     background-image: url(../odin-landing-page/img/stocks.jpg);
-    color: white;
+    background-origin:border-box;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: #E5E7EB;
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
-    justify-content: space-between;
+    justify-content:left;
+
+    height: 300px;
+    width: 600px;
 }
 
-.main img{
+.main-box{
     display: flex;
-    height: auto;
-    width: 300px;
-    height: 250px;
-    object-fit: contain;
-    margin: 30px;
-    border: solid #E5E7EB;
-    border-width: 10px;
+    flex-direction: column;
+    width: 500;
+    height: 500;
+    margin-left: 20px;
 }
+
+.main button {
+    width: fit-content;
+}
+
+.main h2{
+    width: 330px;
+    font-size: 28px;
+}
+
 
 .left-to-image{
     display: flex;
@@ -118,6 +137,7 @@ body{
     padding-left: 300px;
     padding-right: 300px;
     align-items: center;
+    gap: 30px;
     
 }
 

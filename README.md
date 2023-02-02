@@ -12,6 +12,7 @@ https://www.pexels.com/photo/aerial-view-of-city-buildings-4660061/
 https://www.pexels.com/photo/aerial-view-of-the-city-under-blue-and-white-cloudy-sky-164385/
 https://www.pexels.com/photo/scenic-view-of-the-city-735790/
 https://www.pngegg.com/en/png-pyric
-https://www.pexels.com/photo/gray-laptop-with-statistical-data-on-screen-7108077/
+https://www.pexels.com/photo/printed-business-analytics-over-black-surface-7567307/
+
 
 
